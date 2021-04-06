@@ -1,0 +1,339 @@
+<html>
+<head>
+    <title>Filter Page</title>
+    <style>
+.top-block{
+       height: 60px;
+       background-color:#ce0505;
+        }
+.logo{
+        position: absolute;
+        display:inline-block;
+        font-size: 25px;
+        background-color: white;
+        border-radius: 50%;
+        text-align: center;
+        width: 35px;
+       height: 35px;
+       margin: 8px 55px 20px 40px;
+       background-color: #ffffff;
+        }
+.btn1{
+            width:60px;
+            height: 30px;
+            cursor:default;
+            border-color:white;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            font-style:normal;
+            line-height:1.56;
+            letter-spacing: normal;
+            text-align: center;
+            background-color:red;
+            color:#ffffff;
+            margin: 10px 756px 13px 735px;
+        }
+.btn2{
+            display: inline-block;
+         width: 152px;
+         border-color: white;
+         cursor: default;
+         height: 30px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: normal;
+        text-align: left;
+        margin: -41px 15px 15px 824px;;
+        color: #ffffff;
+        background-color:red;
+         }
+.heading {
+            font-family: Poppins;
+            font-size: 36px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.53;
+            letter-spacing: normal;
+            text-align: left;
+            color: #192f60;
+            margin-left: 30px;
+        }
+
+.leftBlock {
+            display: inline-block;
+            height: 500px;
+            width: 225px;
+            box-shadow: 0px 6px 10px 0px lightblue;
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+
+.left-item{
+            width: 45px;
+            height: 10px;
+            margin: 20 80px 10px 20px;
+            font-family: Poppins;
+            font-size: 15px;
+            font-stretch: normal;
+            font-style: normal;
+           line-height: 1.5;
+           letter-spacing: normal;
+           text-align: left;
+           color: #192f60;
+           }
+.select-location {
+            width: 106px;
+            height: 20px;
+            margin: 10px 102px 11px 1px;
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #192f60;
+            }
+.rightBlock {
+            display: inline-block;
+            vertical-align: top;
+             }
+
+.items {
+            height: 200px;
+            width: 700px;
+            box-shadow: 0px 6px 10px 0px lightblue;
+            margin-bottom: 40px;
+            margin-top:10px;
+            }
+.item-left{
+          margin:20px 9px 9px 26px;
+          }
+.The-Big-Chill-Cakery{
+         position: absolute;
+         width: 200px;
+         height: 20px;
+         font-family: Poppins;
+         font-size: 20px;
+         font-weight: 600;
+         font-stretch: normal;
+         font-style: normal;
+         line-height: 1.53;
+         letter-spacing: normal;
+         text-align: center;
+         color: #192f60; 
+         margin:-79px 4px 55px -51px;
+}
+.Fort {
+        width: 25px;
+        height: 15px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: center;
+        color: #192f60;
+        margin:0px 20px 10px 20px;
+}
+.Shop-1-Plot-D-Samruddhi-Complex-Chincholi- {
+        width: 340px;
+        height: 20px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: center;
+        margin: 15px 20px 20px 10px ;
+        color:  #192f60;
+}
+.CUISINES {
+       width: 140px;
+       display: inline-block;
+       height: 118px;
+       font-family: Poppins;
+       font-size: 16px;
+       font-weight: normal;
+       font-stretch: normal;
+       font-style: normal;
+       line-height: 1.88;
+       letter-spacing: normal;
+       text-align: left;
+        color: #636f88;
+}
+.COST-FOR-TWO {
+       width: 140px;
+       height: 81px;
+       font-family: Poppins;
+       font-size: 16px;
+       font-weight: normal;
+       font-stretch: normal;
+       font-style: normal;
+       line-height: 1.88;
+       letter-spacing: normal;
+       text-align: left;
+       color: #636f88;
+       margin:-84px 16px 0px -2px;
+}
+.The-Bake-Shop {
+  position: absolute;
+  width: 298px;
+  height: 43px;
+  padding: 14px 340.4px 5px 97px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60; 
+  margin:-308px 6px 10px 62px;
+}
+
+.Bakery-700 {
+  width: 251px;
+  height: 69px;
+  margin: 26px 310.4px 0 70px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  margin:-116px 12px 5px 202px;
+}
+
+   .pagination {
+            margin-left: 250px;
+            margin-top: 36px;
+        }
+
+        .page {
+            padding: 5px 12px 3px;
+            border-radius: 7px;
+            border: solid 1px #8c96ab;
+            background-color: #ffffff;
+            font-family: Poppins;
+            font-size: 15px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            color: #8c96ab;
+        }
+</style>
+</head>
+
+<body>
+    <div class="top-block">
+    <div class="logo"><b>e!</b></div>
+        <input class="btn1" type="button" value="Login">
+        <input class="btn2" type="button" value="Create an account">
+        </div></div>
+    <div class="heading">Breakfast Places in Mumbai</div>
+    <div class="leftBlock">
+    <div class="left-item">Filters</div>
+            <span class="select-location">select Location</span>
+            <div class="left-item">
+                <select>
+                    <option>select Location</option>
+                    <option>Banglore</option>
+                    <option>Delhi</option>
+                    <option>Hyderabad</option>
+                </select>
+            </div>
+        <span class="left-item">Cuisine</span>
+<div id="select-location"> <input type="checkbox">North indian food</div>
+<div id="select-location"> <input type="checkbox">South indian food</div>
+        <div id="select-location"> <input type="checkbox">Fast food</div>
+        <div id="select-location"> <input type="checkbox">Chineese</div>
+        <div id="select-location"> <input type="checkbox">Street food</div>
+        <div id="select-location"> <input type="checkbox">Desserts</div>
+        <span class="left-item">Cost for two</span>
+        <div id="select-location"><input type="radio" name="cost for two">Less 
+
+than Rs500</div>
+        <div id="select-location"><input type="radio" name="cost for 
+
+two">Rs500-Rs1000</div>
+        <div id="select-location"><input type="radio" name="cost for 
+
+two">Rs1000-Rs1500</div>
+        <div id="select-location"><input type="radio" name="cost for 
+
+two">Rs1500-Rs2000</div>
+        <div id="select-location"><input type="radio" name="cost for 
+
+two">Rs2000+</div>
+        <div class="left-item">Sort</div>
+        <div id="select-location"><input type="radio" name="Sort">Price low to 
+
+high</div>
+        <div id="select-location"><input type="radio" name="Sort">Price high 
+
+to low</div>
+    </div>
+    </div>
+    <div class="rightBlock">
+        <div class="items">
+        <div style="height: 50%;">
+                <div class="item-left">
+                    <img style="height: 90px; width: 90px; border-radius:20px;" src="C:/Users/Ramya/Desktop/pract/breakfast.jpg" />
+                </div>
+                <div class="item-right">
+<div class="The-Big-Chill-Cakery">The Big Chill Cakery</div>
+           <div class="Fort">FORT</div>
+           <div class="Shop-1-Plot-D-Samruddhi-Complex-Chincholi-">Shop 1 Plot D Samruddhi Complex Chincholi-</div><hr/>
+           <div class="CUISINES">CUISINES:</div>
+           <div class="COST-FOR-TWO">COST FOR TWO:</div>
+            <div class="Bakery-700"> Bakery Rs700</div></div>                  
+           </div>
+            </div>
+            div class="items">
+            <div style="height: 50%;">
+                <div class="item-left">
+                    <img style="height: 90px; width: 90px; border-radius: 
+20px;" src="C:/Users/Ramya/Desktop/pract/breakfast.jpg" />
+                </div>
+                <div class="item-right">
+<div class="The-Big-Chill-Cakery">The Big Chill Cakery</div>
+           <div class="Fort">FORT</div>
+           <div class="Shop-1-Plot-D-Samruddhi-Complex-Chincholi-">Shop 1 Plot 
+D Samruddhi Complex Chincholi-</div><hr/>
+           <div class="CUISINES">CUISINES:</div>
+           <div class="COST-FOR-TWO">COST FOR TWO:</div>
+            <div class="Bakery-700"> Bakery Rs700</div></div>
+            <div style="height: 50%;">
+            </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <span class="page">&#60;</span>
+            <span class="page">1</span>
+            <span class="page">2</span>
+            <span class="page">3</span>
+            <span class="page">4</span>
+            <span class="page">5</span>
+            <span class="page">6</span>
+            <span class="page">&#62;</span>
+        </div>
+    </div>
+</body>
+</html>
